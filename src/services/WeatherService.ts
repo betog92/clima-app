@@ -26,6 +26,14 @@ export const searchCities = async (query: string): Promise<City[]> => {
 export const getWeatherData = async (cityId: string): Promise<WeatherData> => {
   await new Promise((resolve) => setTimeout(resolve, 800)); // Simular latencia
 
+  // No simular errores aleatorios en tests
+  if (process.env.NODE_ENV !== "test") {
+    // Simular error aleatorio (50% de probabilidad) solo en desarrollo
+    if (Math.random() < 0.5) {
+      throw new Error("Error de conexión");
+    }
+  }
+
   const weather = weatherDataMap[cityId];
   if (!weather) {
     throw new Error(`No se encontraron datos de clima para ${cityId}`);

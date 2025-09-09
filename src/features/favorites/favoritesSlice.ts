@@ -4,7 +4,7 @@ import { FavoritesState } from "../../shared/types";
 
 const FAVORITES_KEY = "@weatherly_favorites";
 
-const initialState: FavoritesState = {
+export const initialState: FavoritesState = {
   cities: [],
   isLoading: false,
   error: null,
