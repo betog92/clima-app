@@ -1,0 +1,11 @@
+{
+  "cityId": "C-GDL",
+  "updatedAt": "2025-09-03T15:30:00Z",
+  "tempC": 26.8,
+  "humidity": 70,
+  "windKph": 15.1,
+  "condition": {
+    "text": "Lluvia ligera",
+    "icon": "light_rain"
+  }
+}

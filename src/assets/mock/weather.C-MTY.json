@@ -1,0 +1,11 @@
+{
+    "cityId": "C-MTY",
+    "updatedAt": "2025-09-03T13:15:00Z",
+    "tempC": 31.2,
+    "humidity": 52,
+    "windKph": 12.4,
+    "condition": {
+      "text": "Parcialmente nublado",
+      "icon": "partly_cloudy"
+    }
+  }
