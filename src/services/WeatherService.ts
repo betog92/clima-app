@@ -11,10 +11,7 @@ const weatherDataMap: Record<string, WeatherData> = {
   "C-GDL": weatherGDL,
 };
 
-// Simular búsqueda de ciudades con delay
 export const searchCities = async (query: string): Promise<City[]> => {
-  await new Promise((resolve) => setTimeout(resolve, 500)); // Simular latencia
-
   if (!query.trim()) return [];
 
   return (searchData as City[]).filter((city) =>
