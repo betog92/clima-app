@@ -1,11 +1,11 @@
 {
-  "cityId": "C-CDMX",
-  "updatedAt": "2025-09-03T14:20:00Z",
-  "tempC": 28.5,
-  "humidity": 65,
-  "windKph": 8.2,
-  "condition": {
-    "text": "Soleado",
-    "icon": "sunny"
+    "cityId": "C-CDMX",
+    "updatedAt": "2025-09-03T14:30:00Z",
+    "tempC": 24.8,
+    "humidity": 68,
+    "windKph": 8.2,
+    "condition": {
+      "text": "Lluvia ligera",
+      "icon": "light_rain"
+    }
   }
-}
