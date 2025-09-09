@@ -1,4 +1,3 @@
-// Tipos basados en los datos mock de la documentación
 export interface City {
   id: string;
   name: string;
